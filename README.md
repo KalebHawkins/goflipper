@@ -2,10 +2,15 @@
 
 Flipper is a text based coin flip simulator written in Go. 
 
-# Git it
+# Git it (to play with)
 
+```
+git clone https://github.com/kalebhawkins/goflipper.git
+```
+
+# Go get it (to code with)
 ```go
-go get github.com/kalebhawkins/flipper/flipper
+go get github.com/kalebhawkins/goflipper/flipper
 ```
 
 # Use it
@@ -50,7 +55,7 @@ go build flip.go
 ```go
 coin := Coin{true, false, 0, 0} // heads, tails, heads count, tails count
 
-_ := coin.Flip()                // Flip() returns the number of coin rotations during coin flip.
+_ = coin.Flip()                // Flip() returns the number of coin rotations during coin flip.
 
 fmt.Println(coin)               // Print a coins stats.
 
